@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Container-Load-Optimizer/sw.js', { scope: '/Container-Load-Optimizer/' })})}
